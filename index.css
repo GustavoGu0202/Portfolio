@@ -23,8 +23,6 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
-    
 }
 
 nav a{
@@ -40,18 +38,22 @@ nav a:hover{
     border-radius: 10px;
 }
 
-main{
-    max-width: 700px;
-    margin:  10px auto;
+
+.perfil{
+    max-width: 800px;
+    margin: 54px auto;
     background-color: #F2EEE9;
     border-radius: 10px;
     text-align: center;
-
 }
+
+
+
 .container{
     display: flex;
     align-items: center;
     max-width: 100%;
+    
 }
 
 .container img{
@@ -62,14 +64,37 @@ main{
 
 .text-container{
     flex-grow: 1;
-    padding: 10px;
+    
 }
 
 .text-container h1{
-    font-size: 30px;
+    font-size: 200%;
     padding: 10px;
 }
 
 .text-container p{
     font-size: 16px;
+    padding: 10px 30px;
+    text-align: justify;
+}
+
+.linguagens{
+    background-color: #F2EEE9;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.logo-linguagens{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.linguagens a img{
+    padding: 0 10px;
+    width: 100px;
+
 }
