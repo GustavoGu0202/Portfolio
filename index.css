@@ -1,0 +1,75 @@
+body{
+    
+    background-color: #D9BFA9;
+}
+
+header{
+    background-color: #594438;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo h1{
+    color: white;
+    margin: 0%;
+    padding: 10px;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.568);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+nav a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.452);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+main{
+    max-width: 700px;
+    margin:  10px auto;
+    background-color: #F2EEE9;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.container img{
+    max-width: 50%;
+    width: 300px;
+    border-radius: 10px 0px 0 10px;
+}
+
+.text-container{
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.text-container h1{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.text-container p{
+    font-size: 16px;
+}
