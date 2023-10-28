@@ -65,7 +65,13 @@ nav a:hover{
 }
 
 .text-container h1{
-    font-size: 3vw;
+    font-size: 2.4vw;
+    padding: 2px;
+}
+
+.text-container h2{
+    font-size: 2.5vw;
+    padding: 2px;
 }
 .text-container p{
     font-size: 1.7vw;
