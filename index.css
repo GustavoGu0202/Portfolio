@@ -4,39 +4,86 @@ body{
 }
 
 header{
-    background-color: #594438;
+    /* background-color: #594438; */
+    background-color: black;
 }
-.logo{
+
+.menu{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.logo h1{
-    color: white;
-    margin: 0%;
-    padding: 10px;
+.menu-logo img{
+    width: 9vw;
+    padding: 10px 10px 0px 30px ;
+    
 }
 
-nav{
-    background-color: rgba(0, 0, 0, 0.568);
+.menu-botoes ul{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    list-style: none;
+    padding-right: 20px;
 }
 
-nav a{
+.menu-botoes li a{
     color: white;
-    padding: 10px;
     text-decoration: none;
-    font-size: 15px;
+    padding: 15px;
 }
 
-nav a:hover{
-    background-color: rgba(255, 255, 255, 0.452);
+.menu-botoes a:hover{
+    color: black;
+    background-color: white;
     transition: 1s;
-    border-radius: 10px;
 }
+
+
+.programador{
+max-width: 1200x;
+margin: 20px auto;
+
+
+}
+
+.programador-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.imagem-programador img{
+    width:37vw ;
+    padding: 0 0 0 10%;
+    
+}
+
+.text-programador{
+    padding: 0 10px 0 0 ;
+    
+}
+.text-programador h1{
+    font-size: 3vw;
+    padding:  0 10px;
+}
+
+
+.text-programador h2{
+    font-size: 2vw;
+    padding: 0 10px;
+
+}
+.text-programador h3{
+    font-size: 1.7vw;
+    padding:  0 10px;
+}
+
+
 
 
 .perfil{
@@ -46,16 +93,15 @@ nav a:hover{
     background-color: #F2EEE9;
 }
 
-.container{
+.perfil-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.container img{
+.perfil-container img{
     width: 25vw;
-    /* padding:  5px 10px; */
     
 }
 
@@ -65,27 +111,26 @@ nav a:hover{
 }
 
 .text-container h1{
-    font-size: 2.4vw;
+    font-size: 2.1vw;
     padding: 2px;
 }
 
 .text-container h2{
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     padding: 2px;
 }
 .text-container p{
-    font-size: 1.7vw;
+    font-size: 1.6vw;
     
 }
 
 .linguagens{
     background-color: #F2EEE9;
-    max-width: 900px;
+    max-width: 1000px;
     display: flex;
     justify-content: center;
     margin: auto;
     border-radius: 10px;
-    
 }
 
 .logo-linguagens{
