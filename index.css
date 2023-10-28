@@ -40,42 +40,31 @@ nav a:hover{
 
 
 .perfil{
-    max-width: 800px;
+    max-width: 900px;
     margin: 54px auto;
-    background-color: #F2EEE9;
     border-radius: 10px;
-    text-align: center;
+    background-color: #F2EEE9;
 }
-
-
 
 .container{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    max-width: 100%;
-    
 }
 
 .container img{
-    max-width: 50%;
-    width: 300px;
-    border-radius: 10px 0px 0 10px;
+    width: 25vw;
+    padding: 5px 10px 5px 10px;
+    border-radius: 22px 53px 22px 53px;
 }
 
 .text-container{
     flex-grow: 1;
-    
-}
-
-.text-container h1{
-    font-size: 200%;
-    padding: 10px;
 }
 
 .text-container p{
-    font-size: 16px;
-    padding: 10px 30px;
-    text-align: justify;
+    padding: 2px 5px 2px 2px;
 }
 
 .linguagens{
@@ -85,6 +74,7 @@ nav a:hover{
     justify-content: center;
     margin: auto;
     border-radius: 10px;
+    
 }
 
 .logo-linguagens{
@@ -94,7 +84,7 @@ nav a:hover{
 }
 
 .linguagens a img{
-    padding: 0 10px;
+    
     width: 100px;
 
 }
