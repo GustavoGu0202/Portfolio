@@ -1,0 +1,61 @@
+
+@media screen and (max-width:768px) {
+
+    nav a{
+        font-size: 13px;
+    }
+
+    nav a:hover{
+        font-size: 19px;
+    }
+    
+}
+@media screen and (min-width: 768px) {
+
+    header{
+
+    }
+    header h1{
+        display: block;
+        margin: auto;
+        padding: 15px;
+
+    }
+
+    #icon{
+        display: none;
+
+    }
+
+    nav{
+        display: block;
+        width:400px;
+        margin:15px auto;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.856)
+        
+    }
+
+    nav ul{
+        /* text-align: left; */
+
+    }
+
+    nav li{
+        display: inline-block;
+        margin: 0 5px;
+        
+    }
+
+    nav a{
+        border-top:none ;
+        
+    }
+
+    nav a:hover{
+        background-color: black;
+        color: white;
+        
+    }
+    
+}

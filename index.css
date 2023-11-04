@@ -1,146 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
 body{
-    
-    background-color: #D9BFA9;
+    background-color: rgb(32, 32, 32);
 }
 
 header{
-    /* background-color: #594438; */
-    background-color: black;
-}
-
-.menu{
+    background-color: rgb(0, 0, 0);
+    color: white;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     justify-content: space-between;
 }
 
-.menu-logo img{
-    width: 9vw;
-    padding: 10px 10px 0px 30px ;
-    
-}
-
-.menu-botoes ul{
-    display: flex;
-    list-style: none;
-    padding-right: 20px;
-}
-
-.menu-botoes li a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-}
-
-.menu-botoes a:hover{
-    color: black;
-    background-color: white;
-    transition: 1s;
-}
-
-
-.programador{
-max-width: 1200x;
-margin: 20px auto;
-
+header h1{
+    padding: 10px;
 
 }
 
-.programador-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-}
-
-
-
-.imagem-programador img{
-    width:37vw ;
-    padding: 0 0 0 10%;
-    
-}
-
-.text-programador{
-    padding: 0 10px 0 0 ;
-    
-}
-.text-programador h1{
-    font-size: 3vw;
-    padding:  0 10px;
-}
-
-
-.text-programador h2{
-    font-size: 2vw;
-    padding: 0 10px;
-
-}
-.text-programador h3{
-    font-size: 1.7vw;
-    padding:  0 10px;
-}
-
-
-
-
-.perfil{
-    max-width: 900px;
-    margin: 54px auto;
-    border-radius: 10px;
-    background-color: #F2EEE9;
-}
-
-.perfil-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.perfil-container img{
-    width: 25vw;
-    
-}
-
-.text-container{
-    flex-grow: 1;
+#icon{
+    margin: 11px 5px;
+    display: block;
     padding: 5px;
 }
 
-.text-container h1{
-    font-size: 2.1vw;
-    padding: 2px;
+#icon:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
 }
 
-.text-container h2{
-    font-size: 2.3vw;
-    padding: 2px;
-}
-.text-container p{
-    font-size: 1.6vw;
+nav{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.452);
     
 }
 
-.linguagens{
-    background-color: #F2EEE9;
-    max-width: 1000px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    border-radius: 10px;
+nav ul{
+    list-style: none;
+    text-align: center;
+
 }
 
-.logo-linguagens{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.linguagens a img{
+nav li{
     
-    width: 100px;
+
+}
+
+nav a{
+    border-top: 1px solid black;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.63);
+    color: black;
+    transition: 1s;
+    
+}
+
+main{
+
+}
+
+section{
 
 }

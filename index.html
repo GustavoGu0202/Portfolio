@@ -3,96 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="estilos/media-query.css">
+
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
     <title>Portfolio</title>
 </head>
-<body>
-
+<body onresize="mudartamanho () ">
 
     <header>
-        <div class="menu">
-            <div class="menu-logo">
+        <h1>Portifolio</h1>
 
-                <img src="imagens/logo-nova.png" alt="">
-
-            </div>
-
-             <div class="menu-botoes">
-                <ul>
-
-    
-                    <li><a href="#">Sobre mim</a></li>
-                    <li><a href="#">Conhecimento</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Contato</a></li>
-
-                </ul>
-            </div> 
-        </div>
+        <span id="icon" onclick="clicknav()" class="material-symbols-outlined">menu</span>
 
     </header>
-
-   
-
-    <main class="programador">
-        
-        <div class="programador-container">
-
-
-            <div class="text-programador">
-                <h3>Seja bem vindo !</h3>
-                <h2>Esse Portfolio é do </h2>
-                <h1>Gustavo Henrique</h1>
-                        
-            </div>
-
-
-
-            <div class="imagem-programador">
-                <img src="imagens/logo-sem-fundo.png" alt="">
-            </div>
-            
-
-
-        </div>
-    </main>
-
     
+    <nav id="nav" >
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Linguagens</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
 
-    <main class="perfil">
+    <main>
+        <section>
 
-        <div class="perfil-container">      
-                
-            <img src="imagens/rosto.jpg" alt="">
-           
-
-           <div class="text-container">
-               <h1>Quem é </h1>
-               <h2>Gustavo Henrique?</h2>
-
-               <p>
-                   Nasci em São Paulo moro no Rio de Janeiro atualmente, Tenho 20 anos. 
-                   Minha primeira interação com a tecnoligia foi atravez do ipad 1 da apple que me mostrou um mundo novo, depois disso eu me apaixonei por esse novo mundo, atualmente estou estudando para eu me torna um programador Front-end com toda a qualidade e profissionalismo que um programador deve ter !
-               </p>
-           </div>
-            
-        </div>
-
-    </main>
-
-    <main class="linguagens">
-
-        <div class="logo-linguagens">
-            <a href="#"><img src="imagens/html.png" alt="icon-html"></a>
-
-            <a href="#"><img src="imagens/css.png" alt="icon-css"></a>
-        </div>
-
+        </section>
     </main>
 
 
+    <script>
 
-    
+        function mudartamanho () {
+            if (window.innerWidth >= 768){
+                nav.style.display = "block"
+            } else {
+                nav.style.display = "none"
+            }
+        }
+
+        function clicknav() {
+          if  (nav.style.display == 'block') {
+            nav.style.display = "none"
+          } else {
+            (nav.style.display = "block")
+          }
+        }
+    </script>
 </body>
 </html>
