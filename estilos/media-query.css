@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width:0) and (max-width:768px) {
+@media screen and (min-width:0) and (max-width:1020px) {
 
     nav a{
         font-size: 13px;
@@ -12,7 +12,7 @@
     
 }
 
-@media screen and (min-width:375px) and ( max-width:768px) {
+@media screen and (min-width:375px) and ( max-width:1020px) {
 
     .home-img img{
         width: 339px;
@@ -22,7 +22,7 @@
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1020px) {
 
     header{
 
