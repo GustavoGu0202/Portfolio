@@ -57,5 +57,27 @@
         color: white;
         
     }
+
+    main{
+
+    }
+
+    .home{
+        display: flex;
+        width: 1000px;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .home-img img{
+        width: 100%;
+
+    }
+
+    .home-text{
+        
+    }
+
     
 }

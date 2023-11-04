@@ -70,6 +70,39 @@ main{
 
 }
 
-section{
+.home{
+    justify-content: space-between;
+    display: block;
+    margin: 20px auto;
+    width: 320px;
+    
+}
 
+.home-img img{
+    display: block;
+    margin: auto;
+    width: 85vw;
+}
+
+.home-text h1, h2, h3{
+    text-align: center;
+    color: white;
+    
+}
+
+.home-text h1{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+
+.home-text h2{
+    
+}
+
+.home-text h3{
+   font-size: 23px;
+   padding: 10px;
 }
