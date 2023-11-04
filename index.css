@@ -24,6 +24,7 @@ header h1{
     margin: 11px 5px;
     display: block;
     padding: 5px;
+    font-size: 28px;
 }
 
 #icon:hover{
