@@ -151,4 +151,18 @@ main{
     width: 40vw;
 }
 
+.linguagens{
+    max-width: 50px 0;
+    background-color: white;
+    position: relative;
+
+}
+
+.linguagens img{
+    position: absolute;
+    
+    width: 100px;
+    
+}
+
 
