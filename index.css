@@ -152,16 +152,24 @@ main{
 }
 
 .linguagens{
-    max-width: 50px 0;
+    width: 50px 0;
     background-color: white;
-    position: relative;
+    display: flex;
+    
+    
+}
 
+iframe{
+    width: 150px;
+    height: 103px;
+    
 }
 
 .linguagens img{
-    position: absolute;
+    display: flex;
     
-    width: 100px;
+
+    width: 50px;
     
 }
 

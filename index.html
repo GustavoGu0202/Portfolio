@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="index.css">
 
-    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="folder-css/media-query.css">
 
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
@@ -23,15 +23,15 @@
     
     <nav id="nav" >
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#perfil">Sobre</a></li>
             <li><a href="#">Linguagens</a></li>
             <li><a href="#">Contato</a></li>
         </ul>
     </nav>
 
     <main>
-        <section class="home">
+        <section class="home" id="home">
             
             <main class="home-img">
                 <img src="imagens/logo-sem-fundo.png" alt="">
@@ -48,7 +48,7 @@
     
 
     
-        <section class="perfil">
+        <section class="perfil" id="perfil">
 
             <div class="perfil-imagem"><img src="imagens/rosto.jpg" alt="rosto"></div>
 
@@ -63,10 +63,15 @@
 
         <section class="linguagens">
 
-            <img src="imagens/html.png" alt="">
+            <iframe src="pages/html-page.html" frameborder="0" name="tela" id="tela"></iframe>
 
-            <img src="imagens/css.png" alt="">
+            <a href="pages/html-page.html" target="tela"><img src="imagens/html.png" alt=""></a>
+
+            <a href="pages/css-page.html" target="tela"><img src="imagens/css.png" alt=""></a>
+
         </section>
+
+
     </main>
 
 
