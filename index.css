@@ -155,7 +155,6 @@ main{
     background-color: white;
     display: flex;
     /* flex-direction: row-reverse; */
-    justify-content: space-between;
     text-align: center;
     align-items: center;
     height: 200px;
@@ -169,7 +168,7 @@ main{
     
 }
 .linguagens-img{
-    display: block;
+   
 }
 
 .linguagens-img a img{

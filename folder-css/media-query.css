@@ -26,6 +26,17 @@
         width: 200px;
     }
 
+    .linguagens{
+        text-align: left;
+        align-items: initial;
+
+    }
+
+    .linguagens-img a img{
+        width: 70px;
+
+    }
+
 }
 
 @media screen and (max-width:1020px) {
