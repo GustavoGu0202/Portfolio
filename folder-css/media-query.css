@@ -135,5 +135,24 @@
         width: 300px;
     }
 
+
+    .linguagens{
+        width: 950px;
+        height: 215px;
+        margin: auto;
+        padding: 10px;
+        justify-content: center;
+
+    }
+
+    #tela{
+        width: 269px;
+        
+
+    }
+    .linguagens-img a img {
+        width: 100px;
+
+    }
     
 }
