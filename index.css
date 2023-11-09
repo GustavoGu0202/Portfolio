@@ -156,18 +156,20 @@ main{
     display: flex;
     /* flex-direction: row-reverse; */
     justify-content: space-between;
+    text-align: center;
+    align-items: center;
     height: 200px;
-    
+
     
 }
 
 #tela{
     width: 212px;
-    height: 190px;
+    height: 200px;
     
 }
 .linguagens-img{
-    display: flex;
+    display: block;
 }
 
 .linguagens-img a img{
