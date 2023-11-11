@@ -7,11 +7,24 @@
 
 :root{
 
-    --color-body-fundo: #124040;
+    /* 
+    #021024
 
-    --color-hearder: #0F2226;
+    #052659
 
-    --color-main-fundo: rgba(255, 255, 255, 0.856);
+    #5483B3
+
+    #7DA0CA
+
+    #C1E8FF 
+    */
+
+    
+    --color-hearder: #021024;
+
+    --color-body-fundo: #5483B3;
+
+    --color-main-fundo:#C1E8FF;
 
 }
 
@@ -168,4 +181,36 @@ nav a:hover{
     width: 60px;
 }
 
+.projetos{
+    background-color: var(--color-main-fundo);
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.projetos p{
+    text-align: center;
+    
+}
+
+.div1 , .div2 , .div3{
+    margin: 10px;
+    width: 100px;
+    height: 50px
+   
+}
+
+.div1{
+    background-color: red;
+}
+.div2{
+    background-color: rgb(99, 97, 97);
+
+}
+
+.div3{
+    background-color: aqua;
+
+}
 
