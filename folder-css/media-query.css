@@ -155,5 +155,21 @@
         width: 90px;
 
     }
+
+    .em-breve{
+        width: 200px;
+    }
+
+    .em-breve p{
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer h1{
+        font-size: 20px;
+    }
+   
+
+   
     
 }

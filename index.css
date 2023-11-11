@@ -126,6 +126,7 @@ nav a:hover{
    padding: 10px;
 }
 
+
 .perfil{
     background-color: var(--color-main-fundo);
     display: flex;
@@ -186,31 +187,52 @@ nav a:hover{
     margin: 50px auto;
     display: flex;
     justify-content: center;
+    align-items: center;
 
-}
-
-.projetos p{
-    text-align: center;
     
+
 }
 
-.div1 , .div2 , .div3{
-    margin: 10px;
-    width: 100px;
-    height: 50px
+.em-breve{
+    display: block;
+    background-color: white;
+    margin: 5px;
+    padding: 20px 0;
+    border: 1px solid black;
+
+}
+
+.em-breve p{
+    display: flex;
+    padding: 0 10px;
+   background-color: #C1E8FF;
    
 }
 
-.div1{
-    background-color: red;
-}
-.div2{
-    background-color: rgb(99, 97, 97);
-
+footer{
+    background-color: var(--color-main-fundo);
+    
 }
 
-.div3{
-    background-color: aqua;
-
+footer h1{
+    text-align: center;
+    font-size: 4.5vw;
+    color: rgb(0, 0, 0);
 }
+.icon-contato{
+    margin: 10px 0 0 0;
+    display: block;
+    text-align: center;
+    background-color: var(--color-main-fundo);
+}
+
+.icon-contato a{
+    
+}
+
+.icon-contato img{
+   
+    width: 50px;
+}
+
 
