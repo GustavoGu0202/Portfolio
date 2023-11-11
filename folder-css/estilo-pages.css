@@ -3,16 +3,25 @@
     padding: 0%;
 }
 
+:root{
+
+    --color: rgb(253, 253, 253);
+
+    --fundo: #288b8b;
+
+}
+
 body{
-    background-color: #6fe7e7;
+    background-color:var(--fundo);
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 h1{
     margin: 10px 0;
-    color: white;
+    color: var(--color);
 }
 
 p{
-    color: white;
+    color: var(--color);
 }

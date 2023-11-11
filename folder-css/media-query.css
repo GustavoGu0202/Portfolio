@@ -137,21 +137,22 @@
 
 
     .linguagens{
-        width: 950px;
+        width: 800px;
         height: 215px;
         margin: auto;
-        padding: 10px;
-        justify-content: center;
+        
+        justify-content: space-between;
 
     }
 
     #tela{
-        width: 269px;
+        width: 287px;
+        height: 215px;
         
 
     }
     .linguagens-img a img {
-        width: 100px;
+        width: 90px;
 
     }
     

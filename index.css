@@ -11,7 +11,7 @@
 
     --color-hearder: #0F2226;
 
-    --color-main-fundo: ;
+    --color-main-fundo: rgba(255, 255, 255, 0.856);
 
 }
 
@@ -78,16 +78,12 @@ nav a:hover{
     
 }
 
-main{
-    
-    background-color: var(--color-main-fundo);
 
-}
 
 .home{
     justify-content: space-between;
     display: block;
-    margin: 20px auto;
+    margin: 50px auto;
     width: 320px;
     
 }
@@ -108,13 +104,9 @@ main{
     font-size: 25px;
     text-align: center;
     padding: 10px;
-    
-    
+     
 }
 
-.home-text h2{
-    
-}
 
 .home-text h3{
    font-size: 23px;
@@ -122,9 +114,9 @@ main{
 }
 
 .perfil{
-    background-color: aliceblue;
+    background-color: var(--color-main-fundo);
     display: flex;
-    margin: 12px 0;
+    margin: 50px 0;
     justify-content: space-between;
     align-items: center;
     
@@ -152,14 +144,12 @@ main{
 }
 
 .linguagens{
-    background-color: white;
+    background-color:var(--color-main-fundo);
     display: flex;
-    /* flex-direction: row-reverse; */
-    text-align: center;
-    align-items: center;
     height: 200px;
-
+    margin: 50px auto;
     
+
 }
 
 #tela{
@@ -167,7 +157,9 @@ main{
     height: 200px;
     
 }
+
 .linguagens-img{
+    text-align: center;
    
 }
 
